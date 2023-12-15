@@ -2,6 +2,7 @@
 #include <stdio.h> 
 int main()
 {
+
 	int i = 0;
 	int sum = 0;//保存最终结果
 	int n = 0;
@@ -10,6 +11,7 @@ int main()
 	for (i = 1; i <= n; i++)
 	{
 		int j = 0;
+		ret = 1;//ret初始化
 		for (j = 1; j <= i; j++)
 		{
 			ret *= j;
